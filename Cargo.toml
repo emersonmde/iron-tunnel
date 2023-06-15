@@ -1,0 +1,13 @@
+[package]
+name = "iron-tunnel"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.10.0"
+log = "0.4.19"
+quinn = "0.10.1"
+tokio = { version = "1.28.2", features = ["full"] }
+tun-tap = "0.1.3"
